@@ -6,6 +6,8 @@ html {
 body {
     font-family: Verdana, sans-serif;
     color: white;
+    margin: auto;
+    width: 1300px;
 }
 
 .content1 {
@@ -18,7 +20,7 @@ body {
     padding-top: 20px;
 }
 
-.content1 a {
+a {
     color: aquamarine;
     font-size: 16px;
     padding-top: 25px;
@@ -28,3 +30,41 @@ video {
     padding-top: 20px;
 }
 
+.camp {
+    display: flex;
+    flex-direction: column;
+}
+
+.title {
+    font-size: 42px;
+    font-weight: 300;
+    padding-top: 50px;
+}
+
+.description {
+    font-size: 21px;
+    color: gray;
+    padding-top: 20px;
+}
+
+.camp {
+    padding-top: 20px;
+    margin: auto;
+}
+
+.phone {
+    padding-top: 30px;
+    margin: auto;
+}
+
+.coming-soon {
+    padding-top: 40px;
+    font-size: 42px;
+}
+
+footer {
+    padding-top: 25px;
+    color: gray;
+    text-align: right;
+    font-size: 24px;
+}
